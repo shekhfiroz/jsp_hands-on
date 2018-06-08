@@ -7,9 +7,9 @@
 <title>Product Landing page</title>
 </head>
 <body><p align="justify">
-	</p><h2> Please Click on below button<h2> 
+	</p><h2> Please Click on below button 
 		<form action="Product.jsp" method="get">
-			<input type="button" value="click">
+			<input type="submit" value="click">
 		</form>
 </body>
 </html>
