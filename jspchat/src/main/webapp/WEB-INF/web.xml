@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Chat</servlet-name>
+  	<display-name>Chat</display-name>
+  	<description></description>
+  	<servlet-class>com.main.chat.Chat</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>JspChat</servlet-name>
+  	<display-name>JspChat</display-name>
+  	<description></description>
+  	<servlet-class>Chat</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Chat</servlet-name>
+  	<url-pattern>/Chat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>JspChat</servlet-name>
+  	<url-pattern>/JspChat</url-pattern>
+  </servlet-mapping>
+</web-app>
